@@ -21,4 +21,4 @@ DQL functions provided by the package [opsway/doctrine-dbal-postgresql][http ops
 
 This package does not provide any configuration and there is nothing to do once it is installed.
 
-[http opsway/doctrine-dbal-postgresql]: https://github.com/ecphp/doctrine-oci8
+[http opsway/doctrine-dbal-postgresql]: https://github.com/opsway/doctrine-dbal-postgresql
