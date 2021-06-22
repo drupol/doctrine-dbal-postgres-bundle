@@ -1,0 +1,30 @@
+{
+    "name": "drupol/doctrine-dbal-postgresql-bundle",
+    "type": "symfony-bundle",
+    "description": "Doctrine DBAL postgresql bundle",
+    "keywords": [],
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">= 7.4",
+        "opsway/doctrine-dbal-postgresql": "^0.8.1",
+        "symfony/dependency-injection": ">= 4.4"
+    },
+    "require-dev": {
+        "drupol/php-conventions": "^5.0",
+        "friends-of-phpspec/phpspec-code-coverage": "^6.0",
+        "infection/infection": "^0.23.0",
+        "infection/phpspec-adapter": "^0.1.2",
+        "phpspec/phpspec": "^7.1",
+        "symfony/http-kernel": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "drupol\\DoctrineDbalPostgresqlBundle\\": "src/"
+        }
+    },
+    "scripts": {
+        "changelog-unreleased": "docker-compose run auto_changelog -c .auto-changelog -u",
+        "changelog-version": "docker-compose run auto_changelog -c .auto-changelog -v",
+        "grumphp": "./vendor/bin/grumphp run"
+    }
+}

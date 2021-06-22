@@ -1,0 +1,18 @@
+imports:
+  - { resource: vendor/drupol/php-conventions/config/php73/grumphp.yml }
+
+parameters:
+  tasks.license.date_from: 2021
+  tasks.license.holder: Pol Dellaiera
+  extra_tasks:
+    phpspec:
+      verbose: true
+    clover_coverage:
+      clover_file: build/logs/clover.xml
+      level: 80
+    infection:
+      threads: 10
+      test_framework: phpspec
+      configuration: infection.json.dist
+      min_msi: 50
+      min_covered_msi: 50
