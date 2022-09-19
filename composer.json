@@ -6,7 +6,7 @@
     "license": "BSD-3-Clause",
     "require": {
         "php": ">= 7.4",
-        "opsway/doctrine-dbal-postgresql": "^0.8.1",
+        "opsway/doctrine-dbal-postgresql": "^1.0.0",
         "symfony/dependency-injection": ">= 4.4"
     },
     "require-dev": {
